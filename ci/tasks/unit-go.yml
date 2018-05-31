@@ -8,8 +8,8 @@ image_resource:
     tag: '1.10'
 
 inputs:
-- name: jb-pipeline-example
+- name: jb-pipeline-example-go
 
 run:
-  path: jb-pipeline-example/ci/scripts/unit-go.sh
+  path: jb-pipeline-example-go/ci/scripts/unit-go.sh
 

@@ -8,7 +8,7 @@ image_resource:
     tag: slim
 
 inputs:
-- name: jb-pipeline-example
+- name: jb-pipeline-example-web
 
 run:
-  path: jb-pipeline-example/ci/scripts/unit-web.sh
+  path: jb-pipeline-example-web/ci/scripts/unit-web.sh
