@@ -1,4 +1,7 @@
 #!/bin/sh
 
 set -eux
-curl  -s -f --show-error $TARGET_URL -k
+OUTPUT=$(curl  -s -f --show-error $TARGET_URL -k)
+if [ -n "$PATTERN" ]; then
+  echo "$OUTPUT" | grep "$PATTERN"
+fi
