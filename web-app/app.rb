@@ -1,6 +1,6 @@
 require 'sinatra'
 
-# Adding comment boo
+# Adding comment
 class App < Sinatra::Base
   get '/' do
     content_type 'text/plain'
