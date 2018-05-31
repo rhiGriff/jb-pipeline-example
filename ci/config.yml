@@ -1,0 +1,16 @@
+cf-staging-api: api.bosh-lite.com
+cf-staging-username: rhi
+cf-staging-password: password
+cf-staging-organization: Rhi
+cf-staging-space: dev
+cf-staging-url-go: https://staging-go-api-ak.bosh-lite.com
+
+cf-prod-api: api.bosh-lite.com
+cf-prod-username: rhi
+cf-prod-password: password
+cf-prod-organization: Rhi
+cf-prod-space: prod
+cf-prod-url-go: https://prod-go-api-ak.bosh-lite.com
+
+cf-staging-url-web: https://staging-url-web.bosh-lite.com
+cf-prod-url-web: https://prod-url-web.bosh-lite.com
