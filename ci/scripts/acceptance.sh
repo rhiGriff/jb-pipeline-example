@@ -1,4 +1,4 @@
 #!/bin/sh
 
 set -eux
-curl  -s -f --show-error $TARGET_URL
+curl  -s -f --show-error $TARGET_URL -k
