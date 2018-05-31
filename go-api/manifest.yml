@@ -4,3 +4,4 @@ applications:
   memory: 30M
   env:
     GOPACKAGENAME: go-api
+    GREETING: Hello foo
