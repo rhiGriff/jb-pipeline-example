@@ -9,7 +9,8 @@ image_resource:
 
 inputs:
 - name: jb-pipeline-example-go
+- name: jb-pipeline-example-git
 
 run:
-  path: jb-pipeline-example-go/ci/scripts/unit-go.sh
+  path: jb-pipeline-example-git/ci/scripts/unit-go.sh
 
